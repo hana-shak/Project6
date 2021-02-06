@@ -1,0 +1,20 @@
+.mb-0{
+    text-align: center;
+    margin-top: 3%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 3em;
+    color: #9BD4EC;
+}
+
+
+@media only screen and (max-width: 600px){
+    .mb-0{
+        text-align: center;
+        margin-top: 3%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: bolder;
+        font-size: 1em;
+        color: #9BD4EC;
+    } 
+}

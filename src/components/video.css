@@ -1,0 +1,138 @@
+.video-item {
+    display: flex !important;
+    align-items: center !important;
+    flex-direction:column;
+    flex-wrap: wrap; 
+    cursor: pointer;
+} 
+
+.video-item.img {
+    margin:10px;
+    padding:10px;
+}
+
+.ui-image{
+    /* width: 300px; */
+    width: 200px;
+    height: 300px;
+    margin:2%;
+   
+}
+
+
+.eleven-wide-column{
+    /* background-color:red; */
+    width:100%;
+    margin:auto;
+    /* padding:3%; */
+}
+
+.iframe-style{
+    width:100%;
+    height:600px;
+}
+
+.content{ 
+ display:inline-block; 
+ font-weight: bold;
+ margin-left:1%;
+ 
+}
+.header{
+    word-wrap:break-word;
+}
+
+.ui-container{
+    width:70%;
+    height: 100%;
+    margin:auto;
+    /* background-color: cadetblue; */
+    align-items: center; 
+}
+.ui-grid{
+    width:80%;
+    height:100%;
+    margin:auto;
+    /* background-color: coral; */
+}
+
+.ui-row{ 
+    /* background-color: aqua;  */
+    margin:auto;
+}
+
+
+
+.video-text{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between; 
+    margin:1% auto auto auto;
+  }
+
+.video-text.para{
+    width:80%;
+    align-content: center;
+}
+
+.video-container{
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+/*  MEDIA QUERY FOR YOUTUBE PAGES */
+@media only screen and (max-width:550){
+     
+    .ui-image{
+        width: 100px;
+        height: 150px;
+        }
+
+    .content{ 
+        display:inline-block; 
+        font-size: x-small;
+        font-weight: normal;
+         }
+}
+
+@media only screen and (max-width:370){
+    .ui-image{
+        width: 70px;
+        height: 100px;
+        }
+        
+
+    .content{ 
+        display:inline-block; 
+        font-size: x-small;
+        font-weight: normal;
+         }
+     
+} 
+
+@media (max-width:280){
+    .video-item.img {
+        margin:auto;
+        
+    }
+
+    .ui-image{
+        width: 15px;
+        height: 15px;
+        }
+
+    .content{ 
+        display:inline-block; 
+        font-size: x-small;
+        font-weight: normal;
+         }
+       
+    .iframe-style{
+            width:50%;
+            height:100px;
+        }
+     
+} 
+

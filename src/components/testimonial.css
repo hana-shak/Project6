@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif
+}
+
+body {
+    background-color: whitesmoke
+}
+
+.wrapper {
+    background-color: #222;
+    max-width: 800px;
+    margin: 100px auto;
+    margin-top: 2%;
+    padding: 110px 120px
+}
+
+.wrapper .content {
+    padding: 10px;
+    cursor: pointer
+}
+
+.testimonial {
+    padding: 20px 40px;
+    position: relative
+}
+
+.fa-quote-left {
+    position: absolute;
+    top: -15px;
+    left: -6px;
+    font-size: 2rem;
+    color: #9BD4EC;
+}
+
+.fa-quote-right {
+    position: absolute;
+    bottom: -15px;
+    right: -6px;
+    font-size: 2rem;
+    color: #9BD4EC;
+}
+
+.employee {
+    margin-bottom: 40px;
+    padding-left: 30px
+}
+
+.h3 {
+    margin: 0
+}
+
+.carousel-indicators {
+    bottom: -100px
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%
+}
+
+.text-jusitfy {
+    font-weight: 700
+}
+
+.text-mute {
+    color: #aaa
+}
+
+@media(max-width:767px) {
+    .wrapper {
+        padding: 80px 50px;
+        margin: 50px 10px
+    }
+
+    .carousel-indicators {
+        bottom: -80px
+    }
+}
+
+@media(max-width: 420px) {
+    .wrapper {
+        padding: 40px 20px
+    }
+
+    .carousel-indicators {
+        bottom: -45px
+    }
+
+    .employee {
+        margin-bottom: 40px;
+        padding-left: 15px
+    }
+}
